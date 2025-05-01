@@ -81,12 +81,12 @@ for slider */
 
 /* First Slide Background */
 .mil-slide:nth-child(1) .mil-bannerindex {
-  background-image: url('/img/service-3.jpg');
+  background-image: url('../img/service-3.jpg');
 }
 
 /* Second Slide Background */
 .mil-slide:nth-child(2) .mil-bannerindex {
-  background-image: url('/img/myapel.jpg'); /* Add your second image */
+  background-image: url('../img/myapel.jpg'); /* Add your second image */
 }
 
 /* Navigation Dots */
