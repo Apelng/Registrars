@@ -60,9 +60,10 @@ for slider */
  /* Slider Container */
  .mil-slider-container {
   position: relative;
-  height: 650px;
+  height: 100vh;
   overflow: hidden;
   z-index: 3;
+  margin-top: 1vh;
 }
 
 /* Slide Styling */
@@ -89,6 +90,7 @@ for slider */
   height: 100%;
   background: rgba(0, 0, 0, 0.527);
   z-index: 1;
+  
 }
 
 /* First Slide Background */
@@ -169,13 +171,14 @@ for slider */
 @media (max-width: 768px) {
   .mil-bannerindex-text h1 {
     font-size: 36px;
-    margin-top: 60px;
+    margin-top: 25vh;
   }
 }
 
 @media (max-width: 768px) {
   .mil-slider-container {
       height: 920px;
+    
   }
   
   .mil-bannerindex-text h1 {
