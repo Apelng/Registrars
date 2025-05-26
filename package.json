@@ -1,11 +1,24 @@
 {
-    "dependencies": {
-      "body-parser": "^1.20.3",
-      "cors": "^2.8.5",
-      "dotenv": "^16.4.7",
-      "express": "^4.21.2",
-      "nodemailer": "^6.10.0",
-      "nodemon": "^3.1.9"
-    }
+  "name": "registrars",
+  "version": "1.0.0",
+  "description": "Node.js backend for Apel Registrar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step needed for backend'"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
-  
+}
