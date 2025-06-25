@@ -189,18 +189,20 @@ for slider */
 
 
 #map1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px auto; /* Center the map */
-    border-radius: 10px; /* Rounded corners */
-    border-top: 5px ; /* Top border */
-    border-bottom: 5px; /* Bottom border */
-    overflow: hidden; /* Ensure radius applies to iframe content */
-    width: 80%; /* Adjust width as necessary */
-    max-width: 1000px; /* Limit the maximum width */
-    background-color: #f9f9f9; /* Optional background color for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto; /* Center the map */
+  margin-bottom: 50px;
+  border-radius: 10px; /* Rounded corners */
+  border-top: 5px ; /* Top border */
+  border-bottom: 5px; /* Bottom border */
+  overflow: hidden; /* Ensure radius applies to iframe content */
+  width: 100%; /* Adjust width as necessary */
+  max-width: 90%; /* Limit the maximum width */
+  background-color: #f9f9f9; /* Optional background color for contrast */
 }
+
 
 #map1 iframe {
     border: none; /* Remove iframe border */
@@ -236,7 +238,7 @@ for slider */
     flex-wrap: wrap;
 }
 
-.mil-contact-info {
+/* .mil-contact-info {
     font-size: 14px;
     color: #555;
 }
@@ -250,7 +252,7 @@ for slider */
 .mil-contact-info i {
     margin-right: 5px;
     color:  #2a9d8f;
-}
+} */
 
 .mil-social-icons a {
     margin-left: 10px;
