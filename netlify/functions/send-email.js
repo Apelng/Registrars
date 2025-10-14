@@ -135,7 +135,7 @@ exports.handler = async (event, context) => {
 
         const mailOptions = {
             from: `"Contact Us" <${process.env.EMAIL_USER}>`,
-            to: 'registrars@apel.com.ng',
+            to: 'registrars@apel.ng',
             subject: 'New Contact Us Submission',
             html: createEmailTemplate(data),
             replyTo: data.email
