@@ -19,15 +19,15 @@
       <!-- Brand -->
       <div class="footer-brand">
         <a href="${root}index.html" class="footer-logo">
-          <img src="${root}img/favicon.png" alt="Apel Capital Registrars">
+          <img src="${root}img/favicon.png" alt="Apel Registrars and Corporate Services">
         </a>
         <p class="footer-tagline">Nigeria's leading financial services group, delivering trusted solutions across capital markets, trusteeship, and wealth management.</p>
         <p class="footer-companies-label">Our Companies</p>
         <div class="footer-company-links">
           <a href="https://apel.com.ng">Home</a>
           <a href="https://asset.apel.com.ng">Apel Asset Limited</a>
-          <a href="https://trust.apel.com.ng">Apel Capital &amp; Trust Limited</a>
-          <a href="https://registrars.apel.com.ng/">Apel Capital Registrars Limited</a>
+          <a href="https://trust.apel.com.ng">Apel Trustees Limited</a>
+          <a href="https://registrars.apel.com.ng/">Apel Registrars and Corporate Services</a>
           <a href="https://wealth.apel.com.ng">Apel Wealth Management Limited</a>
         </div>
       </div>
@@ -98,8 +98,8 @@
           <a href="https://twitter.com/Apelng" class="footer-social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="footer-legal">
-          <p>Apel Capital Registrars Limited is registered and regulated by the Securities and Exchange Commission, Nigeria.</p>
-          <p>&copy; 2025 All rights reserved &nbsp;|&nbsp; Apel Capital Registrars</p>
+          <p>Apel Registrars and Corporate Services is registered and regulated by the Securities and Exchange Commission, Nigeria.</p>
+          <p>&copy; 2026 All rights reserved &nbsp;|&nbsp; Apel Registrars and Corporate Services</p>
         </div>
       </div>
     </div><!-- /.footer-bottom -->
