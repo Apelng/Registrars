@@ -1232,6 +1232,12 @@ top menu
 .mil-top-menu ul li:last-child {
   margin-right: 0;
 }
+@media (min-width: 1201px) {
+  /* keep the last nav item (Contact) clear of the Sign up button */
+  .mil-top-panel .mil-top-menu {
+    margin-right: 30px;
+  }
+}
 .mil-top-menu ul li a {
   border-radius: 10px;
   height: 48px;
