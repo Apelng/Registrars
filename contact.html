@@ -200,7 +200,7 @@
                                         <input class="mil-input mil-up" type="text" placeholder="Name" name="name" required>
                                     </div>
                                     <div class="col-md-6 mil-mb-30">
-                                        <input class="mil-input mil-up" type="email" placeholder="Email" name="email">
+                                        <input class="mil-input mil-up" type="email" placeholder="Email" name="email" required>
                                     </div>
                                     <div class="col-xl-12 mil-mb-30">
                                         <input class="mil-input mil-up" type="tel" placeholder="Telephone number" name="phone" required>
@@ -220,11 +220,10 @@
                                     <button type="submit" class="mil-btn mil-m" style="cursor:pointer">Send Message</button>
                                 </div>
                             </form>
-                        </div>
-                            <div class="alert-success" style="display: none; background: #d4edda; color: #155724; padding: 15px; border-radius: 4px; margin-top: 20px;">
-                                <h5 style="margin: 0;">Thanks, your message is sent successfully.</h5>
+                            <div class="alert-success" role="status" style="display: none; background: #d4edda; color: #155724; padding: 15px 20px; border-radius: 8px; margin-top: 20px;">
+                                <h5 style="margin: 0 0 5px;">Thank you, your message has been received.</h5>
+                                <p style="margin: 0; font-size: 14px;">We have sent a confirmation to your email. Our team will reply within 24 hours on business days (Monday &ndash; Friday).</p>
                             </div>
-            
                         </div>
                     </div>
                 </div>
@@ -286,9 +285,10 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
         form.reset();
         
         // Hide success message after 5 seconds
+        successAlert.scrollIntoView({ behavior: 'smooth', block: 'center' });
         setTimeout(() => {
             successAlert.style.display = 'none';
-        }, 5000);
+        }, 10000);
         
     } catch (error) {
         console.error('Error:', error);
